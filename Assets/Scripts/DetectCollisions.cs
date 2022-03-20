@@ -26,14 +26,14 @@ public class DetectCollisions : MonoBehaviour
     // 物体同士がぶつかった時に呼ばれる関数
     private void OnCollisionEnter(Collision collision)
     {
-        // if (collision.gameObject.CompareTag("Glove"))
-        // {
+        if (collision.gameObject.CompareTag("Glove"))
+        {
             if (cube.GetComponent<Renderer>().material.color == Color.red){
                 cube.GetComponent<Renderer>().material.color = Color.blue;
             } else {
                 cube.GetComponent<Renderer>().material.color = Color.red;
             }
             // Destroy(collision.gameObject);
-        // }
+        }
     }
 }
