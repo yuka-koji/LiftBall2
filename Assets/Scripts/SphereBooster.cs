@@ -18,7 +18,7 @@ public class SphereBooster : MonoBehaviour
             // ボールを飛ばす処理をStart()からここに移動させる
 
 			// 力を加える方向
-			Vector3 forceDirection = new Vector3(1.0f, 1.0f, 0f);
+			Vector3 forceDirection = new Vector3(0f, 1.0f, 1.0f);
 
 			// 加える力の大きさ
 			float forceMagnitude = 10.0f;
