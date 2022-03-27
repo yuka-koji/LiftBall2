@@ -714,11 +714,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 739217100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71d78f03691604340a4e6efa1476130a, type: 3}
+  m_Script: {fileID: 11500000, guid: 354d409e964e44d5793827ec8721f2ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 1899232388725464, guid: adde5d4f01dd98246921b2b731c9b506, type: 3}
-  speed: 20
 --- !u!1 &810191899
 GameObject:
   m_ObjectHideFlags: 0

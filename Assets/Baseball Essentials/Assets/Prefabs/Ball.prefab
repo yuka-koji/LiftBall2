@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23683728408999368}
   - component: {fileID: 135907263691827098}
   - component: {fileID: -5105343355524579255}
-  - component: {fileID: 8756352799850537964}
   - component: {fileID: -2535473082951238072}
+  - component: {fileID: 1076616899138862259}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -114,18 +114,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8756352799850537964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899232388725464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876805d5fd4394d9881fc84582a3b109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-2535473082951238072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,3 +131,15 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &1076616899138862259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899232388725464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4eb3eccd6f7c45008817ce8f7dbe4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
